@@ -5,7 +5,8 @@ import {
   Subscribe,
   SuperQuality,
   Hero,
-  Nav
+  Nav,
+  Footer,
 } from "./sections/index";
 
 export default function App() {
@@ -32,7 +33,7 @@ export default function App() {
         <Subscribe />
       </section>
       <section className="padding bg-black padding-x padding-t pb-8">
-        Footer
+        <Footer />
       </section>
     </main>
   );
