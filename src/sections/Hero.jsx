@@ -51,7 +51,7 @@ export default function Hero() {
         />
         <div className="flex gap:4 sm:gap-6 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {shoes.map((shoe) => (
-            <div>
+            <div key={shoe.bigShoe}>
               <ShoeCard
                 imgURL={shoe}
                 bigShoeImg={bigShoe}
