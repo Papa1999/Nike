@@ -5,7 +5,7 @@ export default function SuperQuality() {
   return (
     <section
       id="about-us"
-      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
+      className="flex justify-between items-center max-lg:flex-col gap-10 max-container"
     >
       <div className="flex flex-col flex-1">
         <h2 className="text-4xl font-palanquin  capitalize font-bold lg:max-w-lg">

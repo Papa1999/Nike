@@ -1,6 +1,21 @@
-export default function Button({ label, iconURL }) {
+export default function Button({
+  label,
+  iconURL,
+  textColor,
+  backgroundColor,
+  borderColor,
+  fullWidth,
+}) {
   return (
-    <button className="flex justify-center items-center gap-2 px-7 py-4 font-montserrat border text-lg leading-none bg-coral-red rounded-full border-coral-red text-white">
+    <button
+      className={`flex justify-center items-center gap-2 px-7 py-4 font-montserrat border rounded-full ${
+        fullWidth && "w-full"
+      } text-lg leading-none ${
+        backgroundColor
+          ? `${textColor} ${borderColor} ${backgroundColor}`
+          : "bg-coral-red border-coral-red text-white"
+      }`}
+    >
       {label}
       {iconURL && (
         <img
