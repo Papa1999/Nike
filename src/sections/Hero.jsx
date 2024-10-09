@@ -17,13 +17,13 @@ export default function Hero() {
         <p className="text-xl text-coral-red font-montserrat">
           Our Summer Collection
         </p>
-        <h1 className="text-8xl font-palanquin mt-10 max-sm:text-[72px] max-sm:leading-[82] font-bold capitalize">
+        <h1 className="text-8xl font-palanquin mt-10 max-sm:text-[72px] max-sm:leading-[82px] font-bold capitalize">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 ">
             The new arrivals
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">Nike</span>
-          &nbsp;Shoes
+          <span className="text-coral-red inline-block mt-3">Nike&nbsp; </span>
+          Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
           Discover stylish Nike arrivals, quality comfort, and innovation for
